@@ -1,4 +1,5 @@
 import { Header } from './components/Header'
+import { Main } from './components/Main'
 
 export function App() {
   
@@ -7,6 +8,7 @@ export function App() {
   
   <div className="w-screen h-screen">
   <Header/>
+  <Main/>
     
   </div>
   )
