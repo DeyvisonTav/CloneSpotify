@@ -1,7 +1,7 @@
 export function Header() {
 
   return (
-    <div className={` md:h-auto flex fixed w-full px-3  xl:px-28 py-4 bg-black xl:justify-between font-sans lg:justify-around justify-between`}>
+    <div className={`w-full md:h-auto flex fixed md:w-full px-3  xl:px-28 py-4 bg-black xl:justify-between font-sans lg:justify-around justify-between`}>
       <div className="w-full md:px-3 md:w-full xl:pl-16 items-center">
      <a href="#">  <img
       className=" h-10 w-auto md:h-11 justify-center"
