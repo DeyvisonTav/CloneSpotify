@@ -1,8 +1,8 @@
 export function Main() {
   return (
-    <div className={`h-screen md:h-[860px] flex flex-col justify-center text-center bg-spotify-theme-mobile md:bg-spotify-theme bg-banner-mobile md:bg-banner bg-195% md:bg-175% bg-purple-main text-green-main py-40 px-4 `}>
+    <div className={` h-screen md:h-[860px] flex flex-col justify-center text-center bg-spotify-theme-mobile md:bg-spotify-theme bg-banner-mobile md:bg-banner bg-195% md:bg-175% bg-purple-main text-green-main py-40 px-4 `}>
        
-       < div className="   w-full  md:h-screen h-full pt-72 flex justify-center flex-col text-center  ">
+       < div className="w-full   md:h-screen h-full pt-72 flex justify-center flex-col text-center  ">
       
         <h1 className={`text-5xl md:text-9xl mb-10 font-bold max-w-5xl mx-auto leading-none `}>
            Escutar muda tudo  

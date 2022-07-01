@@ -1,3 +1,5 @@
+import {Link, NavLink} from 'react-router-dom'
+
 export function Header() {
 
   return (
@@ -21,16 +23,15 @@ export function Header() {
           </div> 
         <nav className="text-white  text-center flex flex-center items-center justify-center ">
           <ul className="hidden text-[15px] lg:flex flex-center items-center lg:justify-end justify-center flex-row space-x-8 xl:space-x-10 pr-24 font-bold">
-            <a href=""><li className="hover:text-green-500">Premium</li> </a>
+          <a href=""><li className="hover:text-green-500">Premium</li> </a>
             <a href=""><li className="hover:text-green-500">Suporte</li> </a>
             <a href=""><li className="hover:text-green-500">Baixar</li> </a>
             <li>|</li >
             <a href=""><li className="hover:text-green-500">Cadastro</li> </a>
-            <a href=""><li className="hover:text-green-500">Entrar</li> </a> 
-            
+            <a href=''> <li className="hover:text-green-500">Entrar</li> </a> 
             
           </ul>
-        </nav>
+        </nav>  
     </div>
   )
 }
